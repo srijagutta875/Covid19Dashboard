@@ -1,0 +1,9 @@
+.layoutContainer {
+  min-height: 100vh;
+  width: 100vw;
+}
+.layoutInsideCont {
+  min-height: 90vh;
+  width: 100vw;
+  background-color: #161625;
+}

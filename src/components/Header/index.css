@@ -1,0 +1,9 @@
+.headerContainer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #1e1e30;
+}
+.heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
