@@ -6,14 +6,14 @@ import PageLayout from '../PageLayout'
 
 import Footer from '../Footer'
 
-class Home extends Component {
+class About extends Component {
   render() {
     return (
       <PageLayout>
-        <h1>Home</h1>
+        <h1>About</h1>
         <Footer />
       </PageLayout>
     )
   }
 }
-export default Home
+export default About
