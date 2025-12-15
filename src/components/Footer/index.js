@@ -10,10 +10,9 @@ class Footer extends Component {
   render() {
     return (
       <div className="footerContainer">
-        <img
-          src="https://res.cloudinary.com/dzveiche5/image/upload/v1765804612/COVID19INDIA_pjj05m.png"
-          alt="website logo"
-        />
+        <p className="footerlogo">
+          COVID19<span className="footerspan">INDIA</span>
+        </p>
         <p className="footerPara">
           we stand with everyone fighting on the front lines
         </p>

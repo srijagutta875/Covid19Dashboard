@@ -10,27 +10,33 @@ class Header extends Component {
     const currentPath = location.pathname
     return (
       <div className="headerContainer">
-        <Link to="/">
-          <img
-            src="https://res.cloudinary.com/dzveiche5/image/upload/v1765804612/COVID19INDIA_pjj05m.png"
-            alt="website logo"
-          />
+        <Link to="/" className="linkItem">
+          <p className="headerlogo">
+            COVID19<span className="headerspan">INDIA</span>
+          </p>
         </Link>
         <ul className="routesList">
           <li className="listItem">
-            <Link
-              to="/"
-              className={`linkItem ${currentPath === '/' ? 'active' : ''}`}
-            >
-              Home
+            <Link to="/" className="linkItem">
+              <button
+                type="button"
+                className={`buttonItem ${currentPath === '/' ? 'active' : ''}`}
+              >
+                Home
+              </button>
             </Link>
           </li>
+
           <li className="listItem">
-            <Link
-              to="/about"
-              className={`linkItem ${currentPath === '/about' ? 'active' : ''}`}
-            >
-              About
+            <Link to="/about" className="linkItem">
+              <button
+                type="button"
+                className={`buttonItem ${
+                  currentPath === '/about' ? 'active' : ''
+                }`}
+              >
+                About
+              </button>
             </Link>
           </li>
         </ul>

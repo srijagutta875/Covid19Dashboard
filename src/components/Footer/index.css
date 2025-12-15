@@ -29,3 +29,15 @@
   text-align: center;
   margin: 30px;
 }
+.footerlogo {
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+}
+.footerspan {
+  color: #60a5fa;
+}
